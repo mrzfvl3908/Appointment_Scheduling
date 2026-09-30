@@ -1,0 +1,18 @@
+{
+  "platform": "django",
+  "app": "reservationapp",
+
+  "disks": [
+    {
+      "name": "sqlite",
+      "mountTo": "data"
+    },
+    {
+      "name": "media",
+      "mountTo": "media"
+    }
+  ],
+  "cron": [
+    "* * * *"
+  ]
+}
